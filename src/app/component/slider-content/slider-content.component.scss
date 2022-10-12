@@ -18,9 +18,29 @@
         .conationNotice{
             display:block;
             margin:0 auto;
-            padding:0;
+            padding:20px 0;
             width:auto;
             max-width:100%;
+            p{
+                display:inline-block;
+                margin:0 auto;
+                width:auto;
+                max-width:100%; 
+                color:#35D355;
+                padding:5px 15px;
+                background-color:#232323;
+                border-radius:5px;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                font-family:'Nunito', sans-serif;
+                font-weight:700;
+                font-style:normal;
+                svg{
+                    display:inline-block;
+                    width:15px;
+                    margin:-2px 0 0 8px;
+                }
+            }
         }
         .experienceNotice{
             display:block;
@@ -28,11 +48,22 @@
             padding:0;
             width:auto;
             max-width:100%;
+            p{
+                display:inline-block;
+                margin:0 auto;
+                width:auto;
+                max-width:100%; 
+                color:#B0B3B5;
+                padding:0;
+                font-family:'Nunito', sans-serif;
+                font-weight:400;
+                font-style:normal;
+            }
         }
         .contentSlider{
             display:block;
             margin:0 auto;
-            padding:0;
+            padding:40px 0;
             width:auto;
             max-width:100%;
         }
