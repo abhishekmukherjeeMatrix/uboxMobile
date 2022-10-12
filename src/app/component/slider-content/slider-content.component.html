@@ -2,14 +2,75 @@
     <div class="container-fluid">
         <div class="contentInner">
             <div class="conationNotice">
-                <p>Connected</p>
+                <p>Connected <svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">.st0{fill:#35D355;}</style><g><polygon class="st0" points="434.8,49 174.2,309.7 76.8,212.3 0,289.2 174.1,463.3 196.6,440.9 196.6,440.9 511.7,125.8 434.8,49"/></g></svg></p>
             </div>
             <div class="experienceNotice">
                 <p>Tap to start this experience</p>
             </div>
             <!--Slider Open-->
             <div class="contentSlider">
-                
+                <ngb-carousel *ngIf="images">
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img [src]="images[0]" alt="Random first slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>Developed by UBOX TEAM</h3>
+                            <p>Interactive product display</p>
+                        </div>
+                        <div class="carousel-details">
+                            <p>Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img [src]="images[1]" alt="Ubox Slider">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>Developed by UBOX TEAM</h3>
+                            <p>Interactive product display</p>
+                        </div>
+                        <div class="carousel-details">
+                            <p>Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img [src]="images[2]" alt="Ubox Slider">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>Developed by UBOX TEAM</h3>
+                            <p>Lorem ipsum</p>
+                        </div>
+                        <div class="carousel-details">
+                            <p>Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img [src]="images[3]" alt="Ubox Slider">
+                        </div>
+                        <div class="carousel-caption">
+                          <h3>Developed by UBOX TEAM</h3>
+                          <p>Interactive product display</p>
+                        </div>
+                        <div class="carousel-details">
+                            <p>Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img [src]="images[2]" alt="Ubox Slider">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>Developed by UBOX TEAM</h3>
+                            <p>Interactive product display</p>
+                        </div>
+                        <div class="carousel-details">
+                            <p>Lorem Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
             </div>
             <!--Slider Close-->
         </div>
