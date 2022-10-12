@@ -1,0 +1,26 @@
+.header{
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    max-width:100%;
+    background-color:transparent;
+    float:none;
+    .headerInner{
+        display:block;
+        margin:0 auto;
+        padding:50px 0 20px 0;
+        width:100%;
+        max-width:500px;
+        background-color:transparent;
+        float:none;
+        text-align:center;
+        .logo{
+            display:block;
+            margin:0 auto;
+            padding:0;
+            width:auto;
+            max-width:100%;
+        }
+    }
+}

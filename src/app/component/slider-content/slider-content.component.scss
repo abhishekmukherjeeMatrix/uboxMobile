@@ -1,0 +1,40 @@
+.content{
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    max-width:100%;
+    background-color:transparent;
+    float:none;
+    .contentInner{
+        display:block;
+        margin:0 auto;
+        padding:0;
+        width:100%;
+        max-width:500px;
+        background-color:transparent;
+        float:none;
+        text-align:center;
+        .conationNotice{
+            display:block;
+            margin:0 auto;
+            padding:0;
+            width:auto;
+            max-width:100%;
+        }
+        .experienceNotice{
+            display:block;
+            margin:0 auto;
+            padding:0;
+            width:auto;
+            max-width:100%;
+        }
+        .contentSlider{
+            display:block;
+            margin:0 auto;
+            padding:0;
+            width:auto;
+            max-width:100%;
+        }
+    }
+}
