@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './component/header/header.component';
 import { SliderContentComponent } from './component/slider-content/slider-content.component';
+import { ModalConnectComponent } from './component/modal-connect/modal-connect.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SliderContentComponent
+    SliderContentComponent,
+    ModalConnectComponent
   ],
   imports: [
     BrowserModule,
